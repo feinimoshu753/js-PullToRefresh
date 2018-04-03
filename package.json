@@ -1,0 +1,22 @@
+{
+  "name": "js-pulltorefresh",
+  "version": "1.0.0",
+  "description": "a javascript library of pullToRefresh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "dd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feinimoshu753/js-PullToRefresh/issues"
+  },
+  "homepage": "https://github.com/feinimoshu753/js-PullToRefresh#readme",
+  "dependencies": {
+    "less": "^3.0.1",
+    "rollup": "^0.57.1"
+  }
+}
