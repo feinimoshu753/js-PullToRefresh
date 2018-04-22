@@ -1,4 +1,4 @@
-let throttleCreater = function (fn, delay, mustRunDelay) {
+export default function (fn, delay, mustRunDelay) {
     let timer = null;
     let t_start;
     return function(){
@@ -18,5 +18,3 @@ let throttleCreater = function (fn, delay, mustRunDelay) {
         }
     };
 };
-
-export default throttleCreater;

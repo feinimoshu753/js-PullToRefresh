@@ -1,0 +1,16 @@
+export default {
+    minRefreshDistance: 60,
+    maxRefreshDistance: 80,
+    reloadDistance: 50,
+    bodyOffset: 20,
+    mainElement: 'body',
+    triggerElement: 'body',
+    ptrElement: '.ptr',
+    classPrefix: 'ptr--',
+    cssProp: 'min-height',
+    pullText: 'pull down to refresh',
+    releaseText: 'release to refresh',
+    refreshingText: 'refreshing',
+    resistanceFunction: function (t) { return Math.min(1, t / 2.5); },
+    shouldPullToRefresh: function () { return !window.scrollY; },
+}
